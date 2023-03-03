@@ -116,6 +116,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Ripple
 
+# Firewall
+PRODUCT_PACKAGES += \
+    Firewall
+
 # Prebuilt apps
 ifneq ($(TARGET_WITHOUT_PREBUILT_APPS),true)
 
